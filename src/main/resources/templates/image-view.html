@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Viewer</title>
+</head>
+<body>
+<h1>준용의 이미지 뷰어</h1>
+<div>
+  <!-- Thymeleaf 문법으로 이미지 URL 동적 설정 -->
+  <img th:src="${imageUrl}" alt="Uploaded Image" style="max-width: 100%; height: auto;" />
+</div>
+</body>
+</html>
